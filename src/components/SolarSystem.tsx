@@ -8,4 +8,4 @@ return (
 );
 }
 
-export default Solar System;
+export default SolarSystem;
