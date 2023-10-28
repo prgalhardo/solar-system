@@ -1,13 +1,13 @@
 import './App.css'
 import Header from './components/Header'
-import Title from './components/Title'
+import SolarSystem from './components/SolarSystem';
 
 function App() {
 
   return (
     <div className='app-container'>
-      <Title />
       <Header />
+      <SolarSystem />
     </div>
   )
 }

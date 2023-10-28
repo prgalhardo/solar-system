@@ -1,9 +1,7 @@
-import SolarSystem from './SolarSystem';
-
 function Title() {
 return (
   <div className='title-container'>
-    <SolarSystem />
+    <h3 className='title-name'>Planetas!</h3>
   </div>
 )
 }
