@@ -5,7 +5,7 @@ import Title from './Title';
 function SolarSystem() {
 return (
   <div className='solar-system-container'>
-    <Title headline='Planetas'/>
+    <Title />
     <div className='planet-card-container'>
       {Planets.map((planet) => (
         <PlanetCard 
