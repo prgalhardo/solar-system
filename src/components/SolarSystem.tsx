@@ -8,7 +8,8 @@ return (
     <Title />
     <div className='planet-card-container'>
       {Planets.map((planet) => (
-        <PlanetCard 
+        <PlanetCard
+          key={ planet.name } 
           planetName={ planet.name }
           planetImage={ planet.image }
         />
