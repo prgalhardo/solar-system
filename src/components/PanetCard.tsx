@@ -5,8 +5,7 @@ type PlanetCardProps = {
 
 function PlanetCard(props: PlanetCardProps) {
 
-  const { planetName } = props;
-  const { planetImage } = props;
+  const { planetName, planetImage } = props;
 
   return (
     <div className='planet-card-container'>
