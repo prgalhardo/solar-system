@@ -1,9 +1,14 @@
-import SolarSystem from './SolarSystem';
+type TitleProps = {
+  title: string;
+}
 
-function Title() {
+function Title(props: TitleProps) {
+
+  const { title } = props;
+  
 return (
   <div className='title-container'>
-    <SolarSystem />
+    <h3 className='title-name'>{ title }!</h3>
   </div>
 )
 }

@@ -1,9 +1,20 @@
+import Planets from '../data/Planets';
+import PlanetCard from './PanetCard';
+import Title from './Title';
+
 function SolarSystem() {
 return (
   <div className='solar-system-container'>
-    <h3 className='solar-system-title'>
-      Solar System
-    </h3>
+    <Title title='Planetas'/>
+    <div className='planet-card-list'>
+      {Planets.map((planet) => (
+        <PlanetCard
+          key={ planet.name } 
+          planetName={ planet.name }
+          planetImage={ planet.image }
+        />
+      ))}
+    </div>
   </div>
 );
 }

@@ -1,7 +1,16 @@
-function PlanetCard() {
+type PlanetCardProps = {
+  planetName: string;
+  planetImage: string;
+}
+
+function PlanetCard(props: PlanetCardProps) {
+
+  const { planetName, planetImage } = props;
+
   return (
     <div className='planet-card-container'>
-      Planet Card
+      <h3 className='planet-name'>{ planetName }</h3>
+      <img src={ planetImage } alt={ `Planeta ${planetImage}`} />
     </div>
   )
 }
