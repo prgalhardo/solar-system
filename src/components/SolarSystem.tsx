@@ -6,7 +6,7 @@ function SolarSystem() {
 return (
   <div className='solar-system-container'>
     <Title />
-    <div className='planet-card-container'>
+    <div className='planet-card-list'>
       {Planets.map((planet) => (
         <PlanetCard
           key={ planet.name } 
