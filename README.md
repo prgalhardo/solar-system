@@ -1,27 +1,63 @@
-# React + TypeScript + Vite
+# Solar-System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Com essa aplicação será possível visualizar os planetas do sistema solar e algumas missões já realizadas.
 
-Currently, two official plugins are available:
+  # Sumário
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Habilidades desenvolvidas](#habilidades-desenvolvidas)
+- [Tecnologias utilizadas](#tecnologias-utilizadas)
+- [Pré-requisitos](#pré-requisitos)
+  - [Ferramentas necessárias](#ferramentas-necessárias)
+  - [Rodando no servidor local](#rodando-no-servidor-local)
+- [Autora](#autora)
 
-## Expanding the ESLint configuration
+  ---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# Habilidades desenvolvidas
 
-- Configure the top-level `parserOptions` property like this:
+- A aplicação foi desenvolvida com a linguagem TypeScript e com o framework React + Vite.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+---
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Tecnologias utilizadas
+
+- [TypeScript](https://www.typescriptlang.org/pt/)
+- [React](https://pt-br.react.dev/)
+- [Vite](https://pt.vitejs.dev/)
+
+---
+
+# Pré-requisitos
+
+## Ferramentas necessárias
+
+Para rodar o projeto você vai precisar das seguintes ferramentas:
+ - [Git](https://git-scm.com);
+ - Um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/) ou outro de sua preferência;
+
+ ---
+
+## Rodando no servidor local
+
+ - Clone do Projeto e realize os comandos necessários
+
+    - Clone este repositório
+    ```bash
+    git clone git@github.com:prgalhardo/solar-system.git
+    ```
+
+    - Acesse a pasta do projeto no terminal/cmd
+    ```bash
+    cd solar-system
+    ```
+
+    - Executar a aplicação
+    ```bash
+    npm run dev
+    ```
+  
+  ---
+
+## Autora
+
+- [@prgalhardo](https://www.github.com/prgalhardo)
