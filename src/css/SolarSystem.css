@@ -1,0 +1,8 @@
+.planet-card-list {
+  display: flex;
+  flex-direction: row;
+  /* width: 1284px;
+  height: 305.54px;
+  top: 444px;
+  border: 1px; */
+}
