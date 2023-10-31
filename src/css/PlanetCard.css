@@ -1,23 +1,20 @@
 .planet-card {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  margin-left: 5px;
   width: 150px;
-  height: 305.54px;
-  top: 50px;
-  border: 1px;
-  bottom: 444px;
-  text-align: left;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+.planet-image {
+  display: flex;
+  align-items: center;
+  height: 80%;
 }
 
 .planet-name {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 150px;
-  height: 305.54px;
-  top: 50px;
-  border: 1px;
-  text-align: center;
-  bottom: 50px;
+  align-items: center;
 }

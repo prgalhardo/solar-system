@@ -1,3 +1,5 @@
+import '../css/Title.css'
+
 type TitleProps = {
   title: string;
 }
@@ -8,7 +10,7 @@ function Title(props: TitleProps) {
   
 return (
   <div className='title-container'>
-    <h3 className='title-name'>{ title }!</h3>
+    <h3>{ title }!</h3>
   </div>
 )
 }

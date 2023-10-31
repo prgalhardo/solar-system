@@ -5,7 +5,7 @@ import '../css/SolarSystem.css'
 
 function SolarSystem() {
 return (
-  <div className='solar-system-container'>
+  <div>
     <Title title='Planetas'/>
     <div className='planet-card-list'>
       {Planets.map((planet) => (
