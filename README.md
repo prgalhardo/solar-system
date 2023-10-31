@@ -24,7 +24,7 @@ Com essa aplicação será possível visualizar os planetas do sistema solar e a
 - [TypeScript](https://www.typescriptlang.org/pt/)
 - [React](https://pt-br.react.dev/)
 - [Vite](https://pt.vitejs.dev/)
-- [CSS] (https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
 ---
 
