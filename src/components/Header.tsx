@@ -1,7 +1,9 @@
+import '../css/Header.css'
+
 function Header() {
   return (
-    <div className='header-title-container'>
-    <h2 className='header-title'>Solar System</h2>
+    <div className='header-container'>
+    <h2>Solar System</h2>
     </div>
   )
 }
